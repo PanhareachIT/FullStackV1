@@ -1,0 +1,27 @@
+.item-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.item-container div {
+    margin-bottom: 5px;
+}
+
+.product-id {
+    font-weight: bold;
+}
+
+.product-name {
+    color: #333;
+}
+
+.import-quantity,
+.import-price,
+.amount {
+    font-style: italic;
+}

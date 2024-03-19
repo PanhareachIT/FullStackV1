@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div {
+    position: relative;
+} */
+
+div>.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #7bb0f5;
+    ;
+}
+
+div>.mainHeader>.menuContain>ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.mainHeader>.menuContain>ul>li {
+    padding: 10px 15px;
+    display: block;
+}

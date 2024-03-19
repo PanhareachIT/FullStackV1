@@ -1,0 +1,20 @@
+.itemSlid {
+    height: 320px;
+    background-color: pink;
+    width: 100%;
+    padding: 10px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemSlid>div {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
